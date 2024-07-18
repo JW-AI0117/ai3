@@ -111,18 +111,65 @@ while cm <50:
     print('%4d %4d %.2f %.2f'%(cm,mm,m,inch))
 print()
 '''
-x = 1
-cnt = 0
-while x<=1000 :
+# x = 1
+# cnt = 0
+# while x<=1000 :
     
-    if x %3!=0:
-        print(x,end=' ')
-        x = x+1
-        cnt = cnt+1
-    else :
-        x = x+1
-    if cnt %10 == 0:
-        print()
+#     if x %3!=0:
+#         print(x,end=' ')
+#         x = x+1
+#         cnt = cnt+1
+#     else :
+#         x = x+1
+#     if cnt %10 == 0:
+#         print()
+
+
+# while True :
+#     x = int(input("ㄴㄴ"))
+#     if 90<= x <=100 :
+#         print("수")
+#     elif 80<= x <90 :
+#         print("우")
+#     elif 70<= x <80 :
+#         print("미")
+#     elif 60<= x <70 :
+#         print("양")
+#     elif  x>60 :
+#         print("가")
+#     y = (input("계속하겠어요?"))
+#     if y=="q":
+#         break
+   
+print()
+
+sum1 = int(input("시작수를 입력"))
+
+sum2 = int(input("끝수"))
+
+for  x in range(sum1,sum2+1) :
+        for y in range(2,x):
+            if x %y ==0:
+                
+                break
+            if x == y+1:
+                 print("%d "%x ,end=' ')
+
+n1 = int(input("시작수"))
+n2 = int(input('끝수'))
+for x in range(n1,n2+1):
+     for y in range(2,x):
+          if x % y == 0:
+               break
+          if x == y+1:
+            print(x,end=" ")
+          
+
+       
+  
+
+
+
+      
         
-    
          
