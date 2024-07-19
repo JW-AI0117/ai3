@@ -110,5 +110,5 @@ list2 = []
 for i in file_name:
     x = i.split('.')
        
-    print('%s => 파이명:%s,확장자%s:'%(i,x['0'],x))    
+    print('%s => 파이명:%s,확장자%s:'%(i,x,x))    
     
